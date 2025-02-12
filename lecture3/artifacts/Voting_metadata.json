@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_voter",
+						"type": "address"
+					}
+				],
+				"name": "getVoter",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_candidate",
+						"type": "uint256"
+					}
+				],
+				"name": "registerVote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lecture3/Voting.sol": "Voting"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lecture3/Voting.sol": {
+			"keccak256": "0x497a7fb8e1f00f7f6f1d33b833c72e2ebc090307156ed1b1ccda414431abe079",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1ea095727cb728da1a643b06826054ee50678ba91f0170d6c502e3b398ec46b4",
+				"dweb:/ipfs/QmY6S4Zh4aBxNL7uiTXAzmP8pcJRZjMvkvJhTEgzQ3WcYv"
+			]
+		}
+	},
+	"version": 1
+}
