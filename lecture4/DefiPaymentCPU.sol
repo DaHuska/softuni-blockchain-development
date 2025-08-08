@@ -6,6 +6,7 @@ contract PaymentProcessor {
     mapping(address => uint256[]) public payments;
 
     function receivePayment(uint256 _payment) payable external {
+        // Test environment
         balances[0x5B38Da6a701c568545dCfcB03FcB875f56beddC4] += 10;
         require(balances[msg.sender] >= _payment);
 
